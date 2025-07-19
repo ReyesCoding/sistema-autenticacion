@@ -1,0 +1,82 @@
+/* src/components/Login.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background-image: url('../assets/background.jpg');
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 400px;
+  color: #fff;
+}
+
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  font-weight: bold;
+}
+
+/* Input fields */
+.form-control {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: #fff;
+}
+
+.form-control::placeholder {
+  color: #ddd;
+}
+
+/* Iconos en inputs */
+.input-icon-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  color: #ccc;
+  font-size: 1.1rem;
+}
+
+.with-icon {
+  padding-left: 36px !important;
+}
+
+/* Botón */
+.btn-login {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Enlaces de ayuda */
+.form-text a {
+  color: #ccc;
+  text-decoration: underline;
+  font-size: 0.9rem;
+}
+
+/* Mensaje de error */
+.error-message {
+  background-color: rgba(255, 0, 0, 0.1);
+  border-left: 4px solid red;
+  padding: 10px;
+  margin-bottom: 16px;
+  color: red;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+  

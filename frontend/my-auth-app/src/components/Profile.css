@@ -1,0 +1,50 @@
+/* src/components/Profile.css */
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-box {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 500px;
+  color: #fff;
+  text-align: center;
+}
+
+.profile-box h2 {
+  margin-bottom: 20px;
+}
+
+.profile-box p {
+  margin: 8px 0;
+}
+
+.profile-box .btn {
+  margin-top: 20px;
+}
+
+.change-password-form {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scaleY(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+
+  
+  

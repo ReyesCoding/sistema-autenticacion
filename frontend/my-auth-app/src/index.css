@@ -1,0 +1,35 @@
+/* index.css - Estilos globales */
+
+/* Box-sizing para todos los elementos */
+* {
+  box-sizing: border-box;
+}
+
+/* Configuración base del HTML y Body */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  overflow-x: hidden;
+
+  /* Scrollbar oculto (Firefox) */
+  scrollbar-width: none;
+}
+
+/* Scrollbar oculto (Webkit: Chrome, Safari) */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Estilo de fondo global */
+body {
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+
+
+
